@@ -1,0 +1,31 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+By pinpointing and listing only the lines that were different.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+By seeing what was changed from version to version, you can see changes that 
+should have been implemented in previous versions, thus saving the number
+of revisions.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+PROS: All commits will be made on (presumably) completed tasks, so page should still compile. Commits allow user to control when commits should be mad.
+CONS: User may forget to commit at crucial stages, thus losing any changes that have been made since last commit. Automated commits may save incomplete versions that won't compile.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because when coding, multiple documents can be linked together and impact each
+other when changes are made (ie, htm and css files). Whereas, independent
+documents such as in google docs, have no bearing on each other.
+
+How can you use the commands git log and git diff to view the history of files?
+Use git log to view all of the different commits, and use git diff to compare
+the various commits.
+
+How might using version control make you more confident to make changes that could break something?
+Because it's easy to revert to a previous version that worked.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use it for version control.
+
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repository, it copies the .git meta-data to the directory.
+This needs to be done to begin tracking your files for version control.
+
