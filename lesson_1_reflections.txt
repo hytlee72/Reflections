@@ -24,8 +24,3 @@ Because it's easy to revert to a previous version that worked.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 I want to use it for version control.
-
-What happens when you initialize a repository? Why do you need to do it?
-When you initialize a repository, it copies the .git meta-data to the directory.
-This needs to be done to begin tracking your files for version control.
-
